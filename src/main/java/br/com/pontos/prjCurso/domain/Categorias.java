@@ -11,6 +11,8 @@ import javax.persistence.Id;
 public class Categorias implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
+	public Categorias(){}
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
